@@ -1,0 +1,22 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", " whats up", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+},
+{"tag": "goodbye",
+"patterns": ["cya!", "See you later", "Goodbye", "Have a good rest of your day!", "I am leaving", "bye"],
+"responses": ["Goodbye!", "Sad to see you go :(", "Talk to you later!"]
+},
+{"tag": "age",
+"patterns": ["how old", "how old is josh", "what is your age", "how old are you", "age?"],
+"responses": ["My owner Josh is 23 years old", "23 years!", "23 years young!"]
+},
+{"tag": "name",
+"patterns": ["what is your name", "what should I call you", "whats your name", "who are you", "can you tell me your name"],
+"responses": ["You can call me Quantico!", "I'm Quantico!", "I'm Quantico, the assistant of Josh!"]
+},
+{"tag": "shop",
+"patterns": ["What do you recommend", "I have money to spend", "what should I buy", "I want to buy something", " what do you reccomend?", "I would like to buy your products"],
+"responses": ["Ekkovision Protein Powder is very good!", "Dr Pepper Zero Sugar is the greatest soda to buy", "Ekkovision creatine is insanely cheap"]
+}
+]}
